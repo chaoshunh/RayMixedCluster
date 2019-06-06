@@ -3,7 +3,7 @@ import time
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument( "--redis_address", default="10.1.0.4:6000", type=str )
+parser.add_argument( "--redis_address", default="10.1.0.5:6000", type=str )
 parser.add_argument( "--redis_password", default="password", type=str )
 args = parser.parse_args()
 
